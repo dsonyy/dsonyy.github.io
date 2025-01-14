@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/variables.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/logo.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/corner.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/social.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/hamburger.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/responsive.css' | relative_url }}">
+  </head>
+  <body>
+    {% include corner.html %}
+    <div class="container">
+        {% include sidebar.html %}
+        <main class="content">
+            {{ content }}
+        </main>
+    </div>
+    {% include hamburger.html %}
+  </body>
+</html> 

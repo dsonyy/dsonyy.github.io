@@ -1,0 +1,25 @@
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.nav li {
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--color-text);
+    display: block;
+    transition: color 0.1s ease;
+}
+
+.nav a:hover {
+    text-decoration: underline; 
+}
+
+.nav a.active {
+    font-weight: 600;
+}

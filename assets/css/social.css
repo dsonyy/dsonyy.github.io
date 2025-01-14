@@ -1,0 +1,26 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.social .option {
+    width: 20px;
+    height: 20px;
+}
+
+.social-link {
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.social-link:hover {
+    opacity: 0.5;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}

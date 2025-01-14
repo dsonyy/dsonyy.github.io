@@ -1,0 +1,8 @@
+.corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.1;
+    font-size: 100px;
+    font-weight: 1000;
+}
