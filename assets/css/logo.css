@@ -7,10 +7,11 @@
 
 .logo-text {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 4px;
+    right: 4px;
     color: var(--color-text-inverse);
     font-weight: bold;
     text-align: right;
     line-height: 1.2;
+    font-size:x-large
 }

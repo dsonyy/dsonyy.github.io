@@ -8,6 +8,7 @@ body {
     background-color: var(--color-bg-main);
     font-size: medium;
     overflow-x: hidden;
+    color: var(--color-text);
 }
 
 .container {
@@ -22,9 +23,11 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 40px;
+    margin-right: 40px;
 }
 
 .content {
+    max-width: 560px;
     padding: 140px 40px;
     text-align: justify;
 }
@@ -36,3 +39,15 @@ body {
     user-select: none;          /* Standard */
 }
 
+p {
+    line-height: 1.5;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px auto;
+    display: block;
+}
