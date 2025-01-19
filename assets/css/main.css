@@ -97,7 +97,7 @@ body {
 }
 
 p {
-    font-size: large;
+    font-size: medium;
     line-height: 1.5;
 }
 
@@ -112,4 +112,64 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
     margin: 40px auto;
     display: block;
+}
+
+.post-preview {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+    color: var(--color-text-light);
+    margin: 0.5rem 0;
+}
+
+.post-excerpt {
+    margin-top: 0.5rem;
+}
+
+.post-preview h2 {
+    margin-bottom: 0.5rem;
+}
+
+.post-preview h2 a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.post-preview h2 a:hover {
+    color: var(--color-text-light);
+}
+
+.posts-list {
+    margin: 2rem 0;
+}
+
+.post-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-item time {
+    /* font-family: monospace; */
+    flex-shrink: 0;
+    width: 90px;
+}
+
+.post-item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.post-item a:hover {
+    color: var(--color-text-light);
+}
+
+strong {
+    font-weight: 600;
+    font-size: medium;
 }
