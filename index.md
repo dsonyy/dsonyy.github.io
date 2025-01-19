@@ -16,7 +16,7 @@ I believe contributions to space technology are among the most exciting and impa
 As a co-founder of [CleverHive Space](https://cleverhive.space/), I build mission control software for the next generation of lunar rover missions. 
 Previously, I led the development of rover prototypes at [AGH Space Systems](https://www.linkedin.com/company/agh-space-systems), serving as a team leader and software engineer.
 
-I'm always seeking new paths to grow in the chaos (and sometimes getting lost 😉 ). This blog is a space to document and plan my journey by sharing the things I build.
+I'm always seeking new paths to grow in the chaos (sometimes getting lost). This blog is a space to document and plan my journey by sharing my thoughts and things I build.
 
 
 
