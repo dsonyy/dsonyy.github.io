@@ -1,5 +1,62 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTExtraBold.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTHeavy.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTDemi.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTBook.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FuturaPTLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Futura', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
     margin: 40px;
     padding: 0;
     display: flex;
@@ -28,7 +85,7 @@ body {
 
 .content {
     max-width: 560px;
-    padding: 140px 40px;
+    padding: 0 40px;
     text-align: justify;
 }
 
@@ -41,6 +98,10 @@ body {
 
 p {
     line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 40px;
 }
 
 .avatar {

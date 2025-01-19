@@ -19,10 +19,10 @@ Previously, I led the development of rover prototypes at [AGH Space Systems](htt
 I'm always seeking new paths to grow in the chaos (sometimes getting lost). This blog is a space to document and plan my journey by sharing my thoughts and things I build.
 
 
-
 ## Contact me
+
+I'm always open to new conversations and collaborations!
 
 - [LinkedIn](https://www.linkedin.com/in/szymonbednorz/)
 - [GitHub](https://github.com/dsonyy)
-- [Instagram](https://github.com/sbdnrz)
-- [Email](mailto:)
+- [Instagram](https://instagram.com/sbdnrz)
