@@ -5,12 +5,12 @@ thumbnails:
   - /assets/projects/light-printer/heart.jpg
   - /assets/projects/light-printer/gameboy.jpg
   - /assets/projects/light-printer/fish.jpg
-description: A project that uses a 3D printer and RGB LED to create long exposure light images.
+description: Using a 3D printer with a LED attached to the extruder to create long exposure photos.
 source_code: https://github.com/dsonyy/light-printer
 stack:
   - Python
   - Raspberry Pi
-  - 3D Printing
+  - 3D printer
 tags:
   - <1k lines of code
 ---
@@ -18,19 +18,19 @@ tags:
 ## What is it?
 **Light Printer** is a small project developed with love for long exposure photos. The program originally works on Raspberry Pi, which sends G-code commands directly to the Anet A8 3D-printer. The printer doesn't print anything, but it is used as some kind of vertical plotter. There is a RGB LED on the front part of the extruder, which is also controlled by Raspberry. The camera captures every blink of light with a long exposure in a very dark room. Everything works closely together in an effort to produce a correct picture.
 
-<p align="center">
-    <img src="/assets/projects/light-printer/preview.gif">
-</p>
+<figure>
+<img src="/assets/projects/light-printer/preview.gif">
+</figure>
 
 ## Gallery
-<p align="center">
-    <img src="/assets/projects/light-printer/gameboy.jpg">
-    <img src="/assets/projects/light-printer/fish.jpg">
-    <img src="/assets/projects/light-printer/goomba.jpg">
-    <img src="/assets/projects/light-printer/emoji.jpg">
-    <img src="/assets/projects/light-printer/oi.jpg">
-    <img src="/assets/projects/light-printer/heart.jpg">
-</p>
+<figure>
+<img src="/assets/projects/light-printer/gameboy.jpg" width="400">
+<img src="/assets/projects/light-printer/fish.jpg" width="400">
+<img src="/assets/projects/light-printer/goomba.jpg" width="400">
+<img src="/assets/projects/light-printer/emoji.jpg" width="400">
+<img src="/assets/projects/light-printer/oi.jpg" width="400">
+<img src="/assets/projects/light-printer/heart.jpg" width="400">
+</figure>
 
 ## How to run it?
 Please note that this code is written only for **Anet A8 3D printer**. I haven't tested it for any other printers, so it would have to be adjusted a little bit.

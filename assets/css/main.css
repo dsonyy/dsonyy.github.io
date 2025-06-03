@@ -34,11 +34,12 @@ body {
   font-size: medium;
   overflow-x: hidden;
   color: var(--color-text);
+  line-height: 1.3;
 }
 
 .container {
   display: flex;
-  width: 1000px;
+  width: 888px;
   margin-top: 80px;
 }
 
@@ -63,9 +64,12 @@ body {
   user-select: none; /* Standard */
 }
 
-article {
-  line-height: 1.3;
-  font-weight: 400;
+code,
+li,
+ul,
+ol,
+p {
+  font-size: medium;
 }
 
 h1,
@@ -74,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 40px;
+  text-align: left;
 }
 
 a {
@@ -161,4 +165,36 @@ figure {
 figcaption {
   color: var(--color-text-light);
   font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-thumbnails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.project-thumbnail {
+  align-items: center;
+  justify-content: center;
+}
+
+.project-thumbnail img {
+  height: 100%;
+  margin: 0;
 }
