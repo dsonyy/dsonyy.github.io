@@ -25,13 +25,18 @@ keywords: blog, space, software, hardware, rover, startups
 author: Szymon Bednorz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://szymon.blog" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  dsonyy
+github_username: dsonyy
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

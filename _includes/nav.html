@@ -5,7 +5,7 @@
     <!-- <li><a href="{{ '/works' | relative_url }}" {% if page.url contains '/works' %}class="active"{% endif %}>projects</a></li> -->
      
     <!-- <li><a href="{{ '/yearly' | relative_url }}" {% if page.url contains '/yearly' %}class="active"{% endif %}>yearly</a></li> -->
-    <li><a href="https://github.com/dsonyy">projects</a></li>
+    <li><a href="{{ '/projects/' | relative_url }}" {% if page.url contains '/projects/' %}class="active"{% endif %}>projects</a></li>
 
     <li><a href="https://szymonbednorz.com/galeria">gallery</a></li>
 </ul>

@@ -4,29 +4,17 @@ title: Home
 permalink: /
 ---
 
-# Hello
+<!-- <img src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="Szymon Bednorz" class="avatar"> -->
 
-<img src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="Szymon Bednorz" class="avatar">
+Yo, I'm Szymon, 23.
 
-I'm Szymon
+Co-founder of [CleverHive Space](https://cleverhive.space/), where we build software to coordinate lunar rover missions.
 
-I'm the Co-founder of [CleverHive Space](https://cleverhive.space/), developing software to coordinate lunar rover missions. 
+Before that, I led [AGH Space Systems](https://www.linkedin.com/company/agh-space-systems) to 1st place at URC 2024 - the world's biggest space robotics competition. We also won top prizes in Australia, Canada, India, and across Europe.
 
-I led [AGH Space Systems](https://www.linkedin.com/company/agh-space-systems) team to 1st place out of 102 teams at the University Rover Challenge 2024 - the world’s largest space robotics competition. 
+I'm a Software Engineer and recent CS graduate, working at the intersection of space, software, and hardware.
 
-Software Developer. 
+This blog is where I share my journey - projects, thoughts, and ideas.
 
-Recent CS graduate. 
+Find me on [LinkedIn](https://www.linkedin.com/in/szymonbednorz/), [GitHub](https://github.com/dsonyy), [Instagram](https://instagram.com/sbdnrz), or reach out at [szymon.bednorz01@gmail.com](szymon.bednorz01@gmail.com).
 
-Focusing on the intersection of space, software and hardware.
-
-This blog is a space to document and plan my journey by sharing my thoughts and things I build.
-
-## [Projects](https://github.com/dsonyy)
-
-## Contact me 
-
-- [LinkedIn](https://www.linkedin.com/in/szymonbednorz/)
-- [GitHub](https://github.com/dsonyy)
-- [Instagram](https://instagram.com/sbdnrz)
-- dsonyyy at gmail dot com
