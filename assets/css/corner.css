@@ -1,8 +1,9 @@
 .corner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0.1;
-    font-size: 100px;
-    font-weight: 900;
+  font-family: "Futura", system-ui, -apple-system, sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.05;
+  font-size: 100px;
+  font-weight: 900;
 }

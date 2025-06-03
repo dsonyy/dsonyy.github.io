@@ -1,175 +1,160 @@
 @font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTExtraBold.otf') format('opentype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura";
+  src: url("../fonts/FuturaPTExtraBold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTBold.otf') format('opentype');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura";
+  src: url("../fonts/FuturaPTBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTHeavy.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTDemi.otf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTMedium.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTBook.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura';
-    src: url('../fonts/FuturaPTLight.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Futura";
+  src: url("../fonts/FuturaPTHeavy.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: 'Futura', system-ui, -apple-system, sans-serif;
-    font-weight: 400;
-    margin: 40px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-bg-main);
-    font-size: medium;
-    overflow-x: hidden;
-    color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg-main);
+  font-size: medium;
+  overflow-x: hidden;
+  color: var(--color-text);
 }
 
 .container {
-    display: flex;
-    width: 800px;
-    margin-top: 80px;
+  display: flex;
+  width: 1000px;
+  margin-top: 80px;
 }
 
 .sidebar {
-    width: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 40px;
-    margin-right: 40px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  margin-right: 40px;
 }
 
 .content {
-    max-width: 560px;
-    padding: 0 40px;
-    text-align: justify;
+  padding: 0 40px;
+  text-align: justify;
 }
 
 .no-select {
-    -webkit-user-select: none;  /* Safari */
-    -moz-user-select: none;     /* Firefox */
-    -ms-user-select: none;      /* IE10+/Edge */
-    user-select: none;          /* Standard */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
-p {
-    font-size: medium;
-    line-height: 1.5;
+article {
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+  line-height: 1.1;
+  /* letter-spacing: 0.01em; */
+  color: var(--color-text);
+  font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 40px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 40px;
 }
 
 .avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 40px auto;
-    display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 40px auto;
+  display: block;
 }
 
 .post-preview {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
 }
 
 .post-meta {
-    color: var(--color-text-light);
-    margin: 0.5rem 0;
+  color: var(--color-text-light);
+  margin: 0.5rem 0;
 }
 
 .post-excerpt {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .post-preview h2 {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .post-preview h2 a {
-    text-decoration: none;
-    color: var(--color-text);
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 .post-preview h2 a:hover {
-    color: var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 .posts-list {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .post-item {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .post-item time {
-    /* font-family: monospace; */
-    flex-shrink: 0;
-    width: 90px;
+  /* font-family: monospace; */
+  flex-shrink: 0;
+  width: 90px;
 }
 
 .post-item a {
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--color-text);
 }
 
 .post-item a:hover {
-    color: var(--color-text-light);
+  color: var(--color-text-light);
 }
 
 strong {
-    font-weight: 600;
-    font-size: medium;
+  font-weight: 600;
+  font-size: medium;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  color: var(--color-text-light);
+  font-style: italic;
 }

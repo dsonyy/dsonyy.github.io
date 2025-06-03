@@ -1,17 +1,18 @@
 .logo {
-    position: relative;
-    width: 120px;
-    aspect-ratio: 1;
-    background-color: var(--color-primary);
+  position: relative;
+  width: 120px;
+  aspect-ratio: 1;
+  background-color: var(--color-primary);
 }
 
 .logo-text {
-    position: absolute;
-    bottom: 4px;
-    right: 4px;
-    color: var(--color-text-inverse);
-    font-weight: bold;
-    text-align: right;
-    line-height: 1.2;
-    font-size:x-large
+  font-family: "Futura", system-ui, -apple-system, sans-serif;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  color: var(--color-text-inverse);
+  font-weight: bold;
+  text-align: right;
+  line-height: 1.2;
+  font-size: x-large;
 }
