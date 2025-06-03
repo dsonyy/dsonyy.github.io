@@ -7,31 +7,13 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content">
-    {% if page.thumbnail %}
-    <div class="project-thumbnail">
-      <img src="{{ page.thumbnail }}" alt="{{ page.title }} thumbnail" />
-    </div>
-    {% endif %}
-
-    <div class="project-stack">
-      <h3>Tech Stack</h3>
-      <ul>
-        {% for tech in page.stack %}
-        <li>{{ tech }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="project-tags">
-      <h3>Tags</h3>
-      <ul>
-        {% for tag in page.tags %}
-        <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    {{ content }}
-  </div>
+  <p>
+    {% if page.description %} {{ page.description }} <br /><br />{% endif %} {%
+    if page.stack %} <strong>Tech:</strong> {{ page.stack | join: ", " }}<br />
+    {% endif %} {% if page.tags %} <strong>Tags:</strong> {{ page.tags | join:
+    ", " }} <br />{% endif %} {% if page.source_code %} <strong>Source: </strong
+    ><a href="{{ page.source_code }}">{{ page.source_code }}</a><br />
+    {% endif %}</p
+  >
+  {{ content }}
 </article>
