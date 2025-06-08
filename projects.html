@@ -25,13 +25,29 @@ permalink: /projects/
   {% endif %}
 
   <p>
+    <!-- description -->
     {% if project.description %} {{ project.description }} <br /><br />{% endif
-    %} {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ",
-    " }}<br />{% endif %} {% if project.tags %} <strong>Tags:</strong> {{
-    project.tags | join: ", " }}<br />{% endif %} {% if project.source_code %}
+    %}
+
+    <!-- stack -->
+    {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ", "
+    }}<br />{% endif %} {% if project.tags %}
+
+    <!-- tags -->
+    <strong>Tags:</strong> {{ project.tags | join: ", " }}<br />{% endif %} {%
+    if project.source_code %}
+
+    <!-- source -->
     <strong>Source: </strong
     ><a href="{{ project.source_code }}">{{ project.source_code }}</a> {% endif
-    %} {% if project.clickable != false %} <br /><br />
+    %}
+
+    <!-- date -->
+    {% if project.date %} <br /><strong>Date:</strong> {{ project.date | date:
+    "%Y-%m-%d" }}{% endif %}
+
+    <!-- read more -->
+    {% if project.clickable != false %} <br /><br />
     <strong><a href="{{ project.url | relative_url }}">Read more</a></strong>
     {% endif %}
   </p>
