@@ -11,6 +11,7 @@ stack:
   - Python
   - Raspberry Pi
   - 3D printer
+clickable: true
 tags:
   - <1k lines of code
 ---

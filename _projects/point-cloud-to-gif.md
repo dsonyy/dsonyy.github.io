@@ -9,6 +9,7 @@ description: Utility to generate a rotating Gif image from a XYZ point cloud.
 source_code: https://github.com/dsonyy/point-cloud-to-gif
 stack:
   - Python
+clickable: true
 tags:
   - <1k lines of code
 ---

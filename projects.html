@@ -7,25 +7,33 @@ permalink: /projects/
 <h1>Projects</h1>
 
 {% for project in site.projects %}
-<h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-{% if project.thumbnails %}
-<div class="project-thumbnails">
-  {% for thumbnail in project.thumbnails %}
-  <div class="project-thumbnail">
-    <img src="{{ thumbnail }}" alt="{{ project.title }} thumbnail" />
+<div class="project-item">
+  <h2>
+    {% if project.clickable != false %}
+    <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+    {% else %} {{ project.title }} {% endif %}
+  </h2>
+
+  {% if project.thumbnails %}
+  <div class="project-thumbnails">
+    {% for thumbnail in project.thumbnails %}
+    <div class="project-thumbnail">
+      <img src="{{ thumbnail }}" alt="{{ project.title }} thumbnail" />
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
+  {% endif %}
+
+  <p>
+    {% if project.description %} {{ project.description }} <br /><br />{% endif
+    %} {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ",
+    " }}<br />{% endif %} {% if project.tags %} <strong>Tags:</strong> {{
+    project.tags | join: ", " }}<br />{% endif %} {% if project.source_code %}
+    <strong>Source: </strong
+    ><a href="{{ project.source_code }}">{{ project.source_code }}</a> {% endif
+    %} {% if project.clickable != false %} <br /><br />
+    <strong><a href="{{ project.url | relative_url }}">Read more</a></strong>
+    {% endif %}
+  </p>
 </div>
-{% endif %}
-<p>
-  {% if project.description %} {{ project.description }} <br /><br />{% endif %}
-  {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ", "
-  }}<br />
-  {% endif %} {% if project.tags %} <strong>Tags:</strong> {{ project.tags |
-  join: ", " }}<br />
-  {% endif %} {% if project.source_code %} <strong>Source: </strong
-  ><a href="{{ project.source_code }}">{{ project.source_code }}</a> {% endif
-  %}<br /><br />
-  <strong><a href="{{ project.url | relative_url }}">Read more</a></strong>
-</p>
 {% endfor %}
