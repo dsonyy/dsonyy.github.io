@@ -1,6 +1,7 @@
 ---
 layout: project
-title: Publication | Kalman rover - electronics, software and science
+title: Kalman rover - electronics, software and science
+category: publication
 thumbnails:
   - /assets/projects/kalman/autonomy.jpg
   - /assets/projects/kalman/autonomy-2022.gif

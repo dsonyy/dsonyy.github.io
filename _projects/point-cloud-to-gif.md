@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Point cloud to gif
+category: project
 thumbnails:
   - /assets/projects/point-cloud-to-gif/cube.png
   - /assets/projects/point-cloud-to-gif/bag.gif

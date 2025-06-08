@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Long exposure machine
+category: project
 thumbnails:
   - /assets/projects/light-printer/heart.jpg
   - /assets/projects/light-printer/gameboy.jpg
