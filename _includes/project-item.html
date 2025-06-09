@@ -17,9 +17,9 @@
 
   <p>
     <!-- description -->
-    {% if project.description %} {{ project.description }} <br /><br />{% endif
-    %}
+    {% for source in project.description %} {{ source }} {% endfor %}
 
+    <br /><br />
     <!-- stack -->
     {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ", "
     }}<br />{% endif %} {% if project.tags %}
@@ -27,13 +27,14 @@
     <strong>Tags:</strong> {{ project.tags | join: ", " }}<br />{% endif %} {%
     if project.source_code %}
     <!-- source -->
-    <strong>Source: </strong
-    ><a href="{{ project.source_code }}">{{ project.source_code }}</a> {% endif
-    %}
+    <strong>Source: </strong>
+    {% for source in project.source_code %}
+    <a href="{{ source }}">{{ source }}</a> {% if forloop.last == false %}
+    <br />{% endif %} {% endfor %} {% endif %}
 
     <!-- date -->
-    {% if project.date %} <br /><strong>Date:</strong> {{ project.date | date:
-    "%Y-%m-%d" }}{% endif %}
+    {% if project.custom_date %} <br /><strong>Date:</strong> {{
+    project.custom_date | date: "%Y-%m-%d" }}{% endif %}
 
     <!-- read more -->
     {% if project.clickable != false %} <br /><br />
