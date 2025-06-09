@@ -19,8 +19,8 @@ stack:
   - Python
   - C++
   - ROS
-  - Electronics
-  - Science
+  - Robotics
+  - Autonomous Navigation 
 clickable: false
 tags:
   - robotics

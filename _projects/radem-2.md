@@ -6,7 +6,7 @@ thumbnails:
   - /assets/projects/radem/radem.jpg
   - /assets/projects/radem/juice.jpg
 description: 
-  - We built a two-part software platform to simplify access to and analysis of space radiation data from RADEM (ESA JUICE spacecraft) and IREM (ESA INTEGRAL spacecraft). The first part is a web application that automatically retrieves, validates, and stores new data in a time-series database, allowing researchers to explore it through interactive dashboards. The second part is a Python library that standardizes raw and processed data from multiple sources, enabling seamless access, merging, and analysis in a unified environment.
+  - I built a two-part software to streamline the analysis of space radiation data from the RADEM detector on ESA’s JUICE mission and the IREM aboard ESA’s INTEGRAL. The first component is a web application that automatically retrieves, processes, and presents new data through interactive dashboards for quick overview. The second is a Python library that standardizes raw datasets, enabling researchers to analyze measurements in a unified way. By automating common tasks, the platform reduces analysis time from hours to minutes.
   - <br/><br/>
   - <strong>Software assisting data analysis of space radiation in spacecraft missions</strong>
   - <br/>
