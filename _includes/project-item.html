@@ -22,11 +22,14 @@
     <br /><br />
     <!-- stack -->
     {% if project.stack %} <strong>Tech:</strong> {{ project.stack | join: ", "
-    }}<br />{% endif %} {% if project.tags %}
+    }}<br />{% endif %}
     <!-- tags -->
-    <strong>Tags:</strong> {{ project.tags | join: ", " }}<br />{% endif %} {%
-    if project.source_code %}
+    {% if project.tags %}
+    <strong>Tags:</strong> {{ project.tags | join: ", " }}<br />
+    {% endif %}
+
     <!-- source -->
+    {% if project.source_code %}
     <strong>Source: </strong>
     {% for source in project.source_code %}
     <a href="{{ source }}">{{ source }}</a> {% if forloop.last == false %}
