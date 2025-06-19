@@ -14,6 +14,12 @@
 - GCC and Make `gcc -v && make -v`
 - Jekyll bundler `gem install jekyll bundler`
 
+```bash
+sudo apt update
+sudo apt install ruby ruby-dev
+sudo apt install build-essential
+gem install jekyll bundler
+```
 
 ## Building
 
