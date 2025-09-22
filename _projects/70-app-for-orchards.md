@@ -1,10 +1,9 @@
 ---
 layout: project
-title: App for remote control of orchards
+title: Orchards control app
 category: project
 thumbnails:
   - /assets/projects/app-for-orchards/screenshot-0.webp
-  - /assets/projects/app-for-orchards/screenshot-1.webp
   - /assets/projects/app-for-orchards/screenshot-2.webp
   - /assets/projects/app-for-orchards/screenshot-3.webp
   - /assets/projects/app-for-orchards/screenshot-4.webp
