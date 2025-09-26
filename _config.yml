@@ -18,11 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Things I build
+title: Szymon Bednorz
 email: dsonyyy@gmail.com
-description: "This blog is a space to document and plan my journey by sharing my thoughts and things I build."
-keywords: blog, space, software, hardware, rover, startups
-author: Szymon Bednorz
+description: "Szymon Bednorz - software engineer and space robotics builder. Projects, blog, contact."
+keywords: szymon, bednorz, szymon bednorz, software engineer, space robotics, blog, projects, contact
+author: "Szymon Bednorz"
+tagline: "Software engineer building space robotics and tools"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://szymon.blog" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: dsonyy
@@ -31,12 +32,32 @@ github_username: dsonyy
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Collections
 collections:
   projects:
     output: true
     permalink: /projects/:title/
+
+# SEO / Social
+social:
+  name: "Szymon Bednorz"
+  links:
+    - "https://www.linkedin.com/in/szymonbednorz/"
+    - "https://github.com/dsonyy"
+    - "https://instagram.com/sbdnrz"
+
+# Sitemap
+sitemap:
+  url: https://szymon.blog
+  exclude:
+    - /drafts/
+
+# Robots
+robots:
+  sitemap: https://szymon.blog/sitemap.xml
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
