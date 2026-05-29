@@ -10,7 +10,7 @@ permalink: /
 
 ### Founder, full-stack engineer, and space robotics builder.
 
-I'm a founding engineer at [Golf (YC X25)](https://golf.dev) where I build infrastructure and security for MCP servers.
+I'm engineering at [Golf (YC X25)](https://golf.dev) where I build infrastructure and security for MCP servers.
 
 I'm a former CTO of [CleverHive](https://cleverhive.space/) where I built mission-control software for space operations.
 
