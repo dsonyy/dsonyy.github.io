@@ -8,16 +8,14 @@ permalink: /
 
 ### Hi, I'm Szymon!
 
-### Founder, full-stack engineer, and space robotics builder.
+### Product engineer at [Conduct](https://conduct.ai).
 
-I'm a product engineer at [Conduct](https://conduct.ai), building the AI operating system for enterprise IT.
+At Conduct, I build the AI operating system for enterprise IT.
 
 Before that, I was a founding engineer at [Golf (YC X25)](https://golf.dev), building agent infrastructure.
 
-I'm a former co-founder of [CleverHive](https://cleverhive.space/) where I built software for managing robots.
+Earlier, I co-founded [CleverHive](https://cleverhive.space/) and built its software for managing robots.
 
-As a team leader, I led the rover-building team [AGH Space Systems](https://www.linkedin.com/company/agh-space-systems) to the 1st place worldwide in rover competitions.
+At university, I led the rover team [AGH Space Systems](https://www.linkedin.com/company/agh-space-systems) to 1st place worldwide at the University Rover Challenge.
 
-I focus on backend, frontend, and infrastructure. My background includes robotics, autonomous navigation, and sensor data processing.
-
-Find me on [LinkedIn](https://www.linkedin.com/in/szymonbednorz/), [GitHub](https://github.com/dsonyy), [Instagram](https://instagram.com/sbdnrz), or reach out at [szymon.bednorz01@gmail.com](mailto:szymon.bednorz01@gmail.com).
+Find me on [LinkedIn](https://www.linkedin.com/in/szymonbednorz/), [GitHub](https://github.com/dsonyy), [Instagram](https://instagram.com/sbdnrz), or reach out at [dsonyyy@gmail.com](mailto:dsonyyy@gmail.com).
